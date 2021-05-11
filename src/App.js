@@ -42,7 +42,7 @@ function App(props) {
 
   return (
     <div className="App">
-      <Navbar>
+      <Navbar variant="dark">
         <Navbar.Header>
           <Navbar.Brand>
             <Link to="/">
