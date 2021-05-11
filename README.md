@@ -1,15 +1,13 @@
 <p align="center">
-  <img src="./src/assets/images/icons/company-name-white.png" alt="logo" width="60%">
+  <img src="./src/assets/images/icons/company-name-white.png" alt="logo" width="30%">
 
-  <h3 align="center">Pharma's League - Holder Repository</h3>
+  <h3 align="center">RippleFund - Holder Repository</h3>
 
   <p align="center">
-    Greater Southeast Asia's Trusted Drug Marketplace
+    MAS-Approved Singapore Crowdfunding Platform
   </p>
 
   <p align="center">
-    <a href="#roadmap"><strong>View Figma Prototypes</strong></a>
-    ·
     <a href="#getting-started"><strong>Run Locally</strong></a>
   </p>
 </p>
@@ -17,7 +15,7 @@
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-holder-repostiory">About Holder Repository</a></li>
+    <li><a href="#about-the-holder-repostiory">About The Holder Repository</a></li>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -38,35 +36,32 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About Holder Repository
+## About The Holder Repository
 
-The Holder Repository is a wallet platform for resellers to view all of their VCs that have been issued by pharmaceutical companies. They can then use the interface to share their VCs (in this case, to the Pharma's League marketplace) for validation and identification as an authorized reseller on the platform.
+The **Holder Repository** is a wallet platform for startups to view VCs and requests for VCs. They can use the interface to share their VCs with RippleFund, who will validate their VC and allow them to list their crowdfunding campaigns on the site.
 
 ## About The Project
 
-Pharma's League uses Affinidi's verifiable credentials to build a unified and trusted marketplace to combat the massive online trade in counterfeit pharmaceuticals.
+RippleFund uses Affinidi's verifiable credentials to build a trusted crowdfunding platform based in Singapore. 
 
-#### Rise in Couterfeit Pharmaceuticals
+#### Singapore's Startup Ecosystem
 
-<p>The ongoing COVID-19 pandemic and the fast-paced world of e-commerce has taken the acceleration of selling pharmaceuticals online to the next level.</p>
-<p>Though 60% of pharmaceutical brands have seen an increase of revenue from their online business, they also have suffered an increase of 67% in online counterfeits as a result. WHO estimates that counterfeit medicines worth 89 billion USD are traded annually.</p> 
-<p>Multiple news articles have been published about the increasingly prevalent issue:</p>
+Singapore is ranked among the top 20 startup ecosystems globally. The government offers business-incubating infrastructure, tax incentives, cash grants and financing schemes to countless ventures. 
 
-<p align="center">
-<img src="./src/assets/images/icons/news-pharma-fakes.png" alt="logo" width="80%" align="center">
-</p>
-</div>
+With financing being generally the largest challenge in venture building, SG has been rolling out more and more initiatives to propel Singapore towards a thriving startup ecosystem; [Startup SG](https://www.startupsg.gov.sg/) was established in 2017 to unify efforts to support the startup ecosystem under its various initiatives, programmes and partner networks.
 
-#### Affected Communities
-<p>Counterfeit drugs affect people from poor, underprivileged communities most, where self-medication is most common.</p>
-<p>Half of the deaths from the current opioid crisis were from the synthetic heroin fentanyl, which was reported to contain counterfeit medications.</p>
-<p>Fake COVID-19 vaccines have been identified in Mexico, Poland, and many other countries.</p>
+#### About Crowdfunding
 
+Crowdfunding is the practice of funding a new venture by raising money from the public. It stimulates innovative projects due to its interactive nature, and at the same time, using innovation to fill the financial gap that traditional financial systems are unable to. Singapore's startup ecosystem seeks to gain from such a potent new source of capital.
 
-#### Pharma's League's Mission
+Though crowdfunding can make supporting and raising money for startups easier than ever, but it's not without issues. Con artists can use crowdfunding platforms to deceive donors and steal money for personal use. Or the money can be raised with the best intentions, but not end up used for its stated purpose.
 
-<p>We aim to prevent further harm caused towards these communities. This is done by offering a single source of truth for the purchase and reselling of drugs online, where resellers have to be authorized by respective pharmas to resell their drugs. The guarantee of trust between buyers and sellers would also enforce a more efficient pharma market.</p>
+#### RippleFund's Missions
+
+1. To make crowdfunding accessible to and trusted by the public (MAS- and SAF-backed)
+2. To protect crowdfunding backers from con artists and scams
+3. To build trust and engagement among Singaporean startups and crowdfunding backers
+4. To promote entrepreneurship as well as innovative methods of capital raising in Singapore
 
 ### Issuer-Holder-Verifier Flow
 
@@ -87,7 +82,7 @@ Pharma's League uses Affinidi's verifiable credentials to build a unified and tr
 
 #### Generate Affinidi API key
 
-1. Go to apikey.affinidi.com
+1. Go to [Affinidi's developer site](apikey.affinidi.com)
 2. Register for an account
 3. Store `API Key` and `API Key Hash` safely
 
@@ -114,11 +109,7 @@ REACT_APP_WALLET_URL=http://localhost:3001
 
 #### Sequence
 
-Run the [Issuer Repository](https://github.com/SmolLeaps/pharmas-league-issuer), then the [Holder Repository](https://github.com/SmolLeaps/pharmas-league-holder), then lastly the [Verifier Repository](https://github.com/SmolLeaps/pharmas-league-verifier).
-
-## Roadmap
-
-See the Issuer & Holder Figma prototype [here](https://www.figma.com/proto/eRlX8DKoCu7nmbqdhnoWdE/Affinidi-Hackathon?page-id=0%3A1&node-id=3%3A20&viewport=509%2C274%2C0.15831123292446136&scaling=scale-down), and the Verifier Figma prototype [here](https://www.figma.com/proto/eRlX8DKoCu7nmbqdhnoWdE/Affinidi-Hackathon?page-id=3%3A41&node-id=12%3A49&viewport=469%2C617%2C0.2826032042503357&scaling=scale-down).
+Run the [Issuer Repository](https://github.com/SmolLeaps/ripplefund-issuer), then the [Holder Repository](https://github.com/SmolLeaps/ripplefund-holder), then lastly the [Verifier Repository](https://github.com/SmolLeaps/ripplefund-verifier).
 
 ## Contributing
 
