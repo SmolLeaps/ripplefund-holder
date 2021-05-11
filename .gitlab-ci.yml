@@ -54,6 +54,6 @@ deploy:
     - build
   image:
     name: amazon/aws-cli
-    entrypoint: ['']
+    entrypoint: [""]
   script:
     - aws s3 cp build/ s3://$S3_BUCKET/ --recursive

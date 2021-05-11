@@ -1,9 +1,11 @@
 import decodeEnv from "./utils/decodeEnv";
-import { config } from 'dotenv'
+import { config } from "dotenv";
 
-config()
+config();
 
-const env = decodeEnv(process.env.REACT_APP_ENVIRONMENT || process.env.NODE_ENV)
+const env = decodeEnv(
+  process.env.REACT_APP_ENVIRONMENT || process.env.NODE_ENV
+);
 
 const envConfig = {
   env,
@@ -12,4 +14,4 @@ const envConfig = {
   messagesBaseUrl: `https://affinidi-messages.${env}.affinity-project.org`,
 };
 
-export default envConfig
+export default envConfig;

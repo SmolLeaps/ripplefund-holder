@@ -4,7 +4,7 @@
     font-style: normal;
     width: 100%;
     padding: 35px 0;
-    background-color: #F1F1F1;
+    background-color: #f1f1f1;
   }
 
   .Login .Form {
@@ -14,7 +14,7 @@
 }
 
 .Login .Form {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 75px 40px;
@@ -41,7 +41,7 @@
   font-size: 12px;
   line-height: 18px;
   text-transform: uppercase;
-  color: #5E5E5E;
+  color: #5e5e5e;
   margin: 0 0 10px 0;
 }
 
@@ -54,7 +54,7 @@
 .Login .Button {
   color: #fff;
   cursor: pointer;
-  background: #2400FF;
+  background: #2400ff;
   border-radius: 5px;
   margin-top: 50px;
 }
@@ -64,14 +64,14 @@
 }
 
 .Login .Button:disabled:hover {
-  background: #2400FF;
+  background: #2400ff;
 }
 
 .Login .Button:hover {
-  background: #15009E;
+  background: #15009e;
 }
 
 .Login .Link {
-  color: #2400FF;
+  color: #2400ff;
   text-decoration: underline;
 }

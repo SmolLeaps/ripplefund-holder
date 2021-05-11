@@ -42,11 +42,11 @@ The **Holder Repository** is a wallet platform for startups to view VCs and requ
 
 ## About The Project
 
-RippleFund uses Affinidi's verifiable credentials to build a trusted crowdfunding platform based in Singapore. 
+RippleFund uses Affinidi's verifiable credentials to build a trusted crowdfunding platform based in Singapore.
 
 #### Singapore's Startup Ecosystem
 
-Singapore is ranked among the top 20 startup ecosystems globally. The government offers business-incubating infrastructure, tax incentives, cash grants and financing schemes to countless ventures. 
+Singapore is ranked among the top 20 startup ecosystems globally. The government offers business-incubating infrastructure, tax incentives, cash grants and financing schemes to countless ventures.
 
 With financing being generally the largest challenge in venture building, SG has been rolling out more and more initiatives to propel Singapore towards a thriving startup ecosystem; [Startup SG](https://www.startupsg.gov.sg/) was established in 2017 to unify efforts to support the startup ecosystem under its various initiatives, programmes and partner networks.
 
@@ -67,7 +67,7 @@ Though crowdfunding can make supporting and raising money for startups easier th
 
 <img src="./src/assets/images/icons/user-flow.png" alt="User Flow">
 
-### Technologies Used 
+### Technologies Used
 
 - [Affinidi API](apikey.affinidi.com)
 - [React](https://reactjs.org/)
